@@ -1,0 +1,10 @@
+{
+  "id": "pid",
+  "display_name": "Participant Identification Number",
+  "description": "",
+  "type": "identifier",
+  "labels": [
+    "pptid",
+    "id"
+  ]
+}
