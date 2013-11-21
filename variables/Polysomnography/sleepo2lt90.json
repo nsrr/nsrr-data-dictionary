@@ -1,0 +1,11 @@
+{
+  "id": "sleepo2lt90",
+  "display_name": "Sleep time spent below 90% oxygen saturation",
+  "description": "",
+  "type": "numeric",
+  "units": "percent",
+  "labels": [
+    "hypoxemia",
+    "oxygen saturation"
+  ]
+}
