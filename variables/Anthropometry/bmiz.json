@@ -1,0 +1,12 @@
+{
+  "id": "bmiz",
+  "display_name": "Body Mass Index (BMI) Z-score",
+  "description": "Used for participants between the ages of 2 and 20. The Z-score is calculated using the CDC BMI-for-age data files.",
+  "type": "numeric",
+  "units": "standard deviations",
+  "labels": [
+    "z-score",
+    "bmi",
+    "weight"
+  ]
+}

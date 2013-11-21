@@ -1,0 +1,14 @@
+{
+  "id": "hypertension",
+  "display_name": "Has hypertension",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes",
+  "labels": [
+    "high blood pressure",
+    "htn",
+    "systolic",
+    "diastolic",
+    "blood pressure"
+  ]
+}

@@ -6,6 +6,8 @@
   "units": "percent",
   "labels": [
     "hypoxemia",
-    "oxygen saturation"
+    "oxygen saturation",
+    "sao2",
+    "o2"
   ]
 }

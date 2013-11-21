@@ -1,0 +1,11 @@
+{
+  "id": "ahi",
+  "display_name": "Apnea-Hypopnea Index",
+  "description": "The primary Apnea-Hypopnea Index from each dataset. The number of apnea and hypopnea events per hour of sleep.",
+  "type": "numeric",
+  "units": "events per hour",
+  "labels": [
+    "ahi",
+    "rdi"
+  ]
+}

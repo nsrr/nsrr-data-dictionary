@@ -1,0 +1,12 @@
+{
+  "id": "arousalindex",
+  "display_name": "Arousal Index",
+  "description": "The number of arousal events per hour of sleep.",
+  "type": "numeric",
+  "units": "events per hour",
+  "labels": [
+    "arousal",
+    "ai",
+    "eeg"
+  ]
+}
