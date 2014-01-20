@@ -1,0 +1,11 @@
+{
+  "id": "waso",
+  "display_name": "Wake after sleep onset",
+  "description": "",
+  "type": "numeric",
+  "units": "minutes",
+  "labels": [
+    "waso",
+    "wake after sleep onset"
+  ]
+}

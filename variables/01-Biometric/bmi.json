@@ -3,7 +3,7 @@
   "display_name": "Body Mass Index (BMI)",
   "description": "",
   "type": "numeric",
-  "units": "kg/m^2",
+  "units": "kilograms per meters-squared",
   "labels": [
     "bmi",
     "weight"

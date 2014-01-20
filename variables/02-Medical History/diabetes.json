@@ -1,0 +1,11 @@
+{
+  "id": "diabetes",
+  "display_name": "Has diabetes",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes",
+  "labels": [
+    "diabetes",
+    "dm"
+  ]
+}

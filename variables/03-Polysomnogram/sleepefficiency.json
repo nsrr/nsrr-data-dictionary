@@ -1,0 +1,11 @@
+{
+  "id": "sleepefficiency",
+  "display_name": "Sleep efficiency",
+  "description": "",
+  "type": "numeric",
+  "units": "percent",
+  "labels": [
+    "sleepefficiency",
+    "sleep efficiency"
+  ]
+}

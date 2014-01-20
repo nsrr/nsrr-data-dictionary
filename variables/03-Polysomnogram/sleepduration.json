@@ -1,0 +1,11 @@
+{
+  "id": "sleepduration",
+  "display_name": "Sleep duration",
+  "description": "",
+  "type": "numeric",
+  "units": "minutes",
+  "labels": [
+    "sleepduration",
+    "sleep time"
+  ]
+}

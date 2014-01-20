@@ -1,0 +1,11 @@
+{
+  "id": "neckcm",
+  "display_name": "Neck circumference",
+  "description": "",
+  "type": "numeric",
+  "units": "centimeters",
+  "labels": [
+    "neckcm",
+    "neck"
+  ]
+}
