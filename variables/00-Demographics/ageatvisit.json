@@ -3,7 +3,7 @@
   "display_name": "Age at visit",
   "description": "Age at time of study visit in years.",
   "type": "numeric",
-  "units": "year",
+  "units": "years",
   "labels": [
     "age"
   ]
