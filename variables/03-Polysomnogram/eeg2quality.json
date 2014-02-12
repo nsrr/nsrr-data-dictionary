@@ -1,0 +1,11 @@
+{
+  "id": "eeg2quality",
+  "display_name": "EEG2 signal quality",
+  "description": "",
+  "type": "choices",
+  "domain": "signalquality",
+  "labels": [
+    "eeg2quality",
+    "psg signal"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "diastolic",
+  "display_name": "Diastolic blood pressure",
+  "description": "",
+  "type": "numeric",
+  "units": "millimeters of mercury",
+  "labels": [
+    "diastolic",
+    "dbp"
+  ]
+}

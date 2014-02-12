@@ -1,0 +1,12 @@
+{
+  "id": "medanyhypertension",
+  "display_name": "Any hypertension medications",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes",
+  "labels": [
+    "medanyhypertension",
+    "hypertensive",
+    "htn"
+  ]
+}

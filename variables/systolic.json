@@ -1,0 +1,11 @@
+{
+  "id": "systolic",
+  "display_name": "Systolic blood pressure",
+  "description": "",
+  "type": "numeric",
+  "units": "millimeters of mercury",
+  "labels": [
+    "systolic",
+    "sbp"
+  ]
+}

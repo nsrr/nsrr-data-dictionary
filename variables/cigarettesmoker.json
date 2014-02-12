@@ -1,0 +1,12 @@
+{
+  "id": "cigarettesmoker",
+  "display_name": "Currently smokes cigarettes",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes",
+  "labels": [
+    "cigarettesmoker",
+    "smoke",
+    "cigarette"
+  ]
+}

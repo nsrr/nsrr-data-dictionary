@@ -1,0 +1,11 @@
+{
+  "id": "psgquality",
+  "display_name": "Overall PSG quality",
+  "description": "",
+  "type": "choices",
+  "domain": "psgquality",
+  "labels": [
+    "psgquality",
+    "overall quality"
+  ]
+}

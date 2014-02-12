@@ -1,0 +1,11 @@
+{
+  "id": "stroke",
+  "display_name": "Has stroke",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes",
+  "labels": [
+    "stroke",
+    "tia"
+  ]
+}

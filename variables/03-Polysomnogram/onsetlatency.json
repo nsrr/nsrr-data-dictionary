@@ -1,0 +1,11 @@
+{
+  "id": "onsetlatency",
+  "display_name": "Sleep onset latency",
+  "description": "",
+  "type": "numeric",
+  "units": "minutes",
+  "labels": [
+    "onsetlatency",
+    "onset latency"
+  ]
+}
