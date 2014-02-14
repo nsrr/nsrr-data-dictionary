@@ -1,0 +1,12 @@
+{
+  "id": "project",
+  "display_name": "Project Name",
+  "description": "",
+  "type": "choices",
+  "domain": "project",
+  "labels": [
+    "project",
+    "shhs",
+    "chat"
+  ]
+}
