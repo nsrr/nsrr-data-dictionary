@@ -1,23 +1,24 @@
 require 'test_helper'
+require 'colorize'
 
-class DictionaryTest < Test::Unit::TestCase
+class DictionaryTest < Minitest::Test
+  # This line includes all default Spout Dictionary tests
   include Spout::Tests
+
+  # This line provides access to @variables, @forms, and @domains
+  # iterators that can be used to write custom tests
+  include Spout::Helpers::Iterators
 
   VALID_UNITS = ['years', 'minutes', 'percent', 'events per hour', 'kilograms', 'centimeters', 'standard deviations', 'kilograms per meters-squared',
     'millimeters of mercury']
 
-  def assert_units(units, msg = nil)
-    full_message = build_message(msg, "? invalid units. Valid types: #{VALID_UNITS.join(', ')}", units)
-    assert_block(full_message) do
-      VALID_UNITS.include?(units)
+  @variables.select{|v| ['numeric','integer'].include?(v.type)}.each do |variable|
+    define_method("test_units: "+variable.path) do
+      message = "\"#{variable.units}\"".colorize( :red ) + " invalid units.\n" +
+                "             Valid types: " +
+                VALID_UNITS.sort.collect{|u| u.inspect.colorize( :white )}.join(', ')
+      assert VALID_UNITS.include?(variable.units), message
     end
   end
 
-  Dir.glob("variables/**/*.json").each do |file|
-    if ['numeric','integer'].include?(json_value(file, :type))
-      define_method("test_units: "+file) do
-        assert_units json_value(file, :units)
-      end
-    end
-  end
 end
